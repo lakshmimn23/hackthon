@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Problem 1</h1>
+
+    <script>
+        var x = [1, 2, 4, 5];
+
+        let length = x.length;
+        //console.log(length);
+        for(let i= 0; i< length; i++){
+           let ans = x[i+1] - x[i];
+           if(ans === 2){
+            document.write(`<h3>Missing Number = ${ x[i] + 1}</h3>`);
+           }
+        }
+    </script>
+</body>
+</html>

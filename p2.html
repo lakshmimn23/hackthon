@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Problem 2</h1>
+    <!-- output = [0,1]  -->
+    <script>
+        var x = [2, 7, 11, 15];
+        var sum = 9;
+
+        for(i=0; i< x.length; i++){
+            var total = x[i]+x[i+1];
+            if(total == sum) {
+                 var key = Array(i, i+1);
+                console.log(key);
+            }
+        }
+
+        
+    </script>
+</body>
+</html>
